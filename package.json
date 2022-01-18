@@ -1,0 +1,24 @@
+{
+    "name": "diepsp",
+    "version": "1.0.0",
+    "description": "A singleplayer version of diep.io",
+    "main": "main.js",
+    "scripts": {
+        "build": "electron-builder build --win --publish never",
+        "deploy": "electron-builder build --win --publish always",
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/z46-dev/diepsp.git"
+    },
+    "author": "z46",
+    "license": "CC0-1.0",
+    "devDependencies": {
+        "electron": "^16.0.7",
+        "electron-builder": "^22.14.5"
+    },
+    "dependencies": {
+        "electron-updater": "^4.6.1"
+    }
+}

@@ -1,0 +1,53 @@
+body {
+	background-color: #000000;
+}
+
+html, body, canvas {
+	position: absolute;
+    padding: 0;
+    margin: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	cursor: default;
+    overflow: hidden;
+    font: 14px Ubuntu;
+    font-weight: bold;
+}
+
+#loading {
+	color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 48pt;
+	font-weight: bold;
+	cursor: default;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#textInputContainer {
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#textInputContainer input {
+    font-size: x-large;
+}
+
+#textInputContainer span {
+    font-size: large;
+}
